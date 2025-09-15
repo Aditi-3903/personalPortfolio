@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+    <span class="menu-toggle">☰</span>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <h2>Hi, I'm <span>Aditi👩‍💻</span></h2>
+    <p>Front-End Developer | HTML • CSS • JavaScript</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="about">
+      <img src="myImg.jpeg" alt="Profile Picture">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I am an enthusiastic front-end developer specializing in creating
+          modern, responsive websites using HTML, CSS, and JavaScript.
+          My focus is on writing clean code and creating user-friendly
+          visiualing appeling websites.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript (ES6+)</div>
+      <div class="skill">Responsive Design</div>
+      <div class="skill">Git & GitHub</div>
+      
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="portfolio">
+      <div class="project">
+        <h3><a href="https://aditi-3903.github.io/personalPortfolio/">Portfolio Website</a></h3>
+        <p>A responsive portfolio built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3><a href="https://aditi-3903.github.io/formValidation/">Login Form</a></h3>
+        <p>A simple login form using  JavaScript for dynamic UI.</p>
+       
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Aditi Bhishurkar | HTML CSS JS Developer</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
